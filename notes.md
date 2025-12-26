@@ -1,3 +1,3 @@
 # Dec 20 - grounwork done
-# Dec 21 - missed 
-# Dec 22 -
+# Dec 23 - Organised file structure under git, Started Linux 
+# Dec 25 - 
