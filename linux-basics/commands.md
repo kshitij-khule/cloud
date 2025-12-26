@@ -4,6 +4,19 @@
 
 ## Basic Commands
 
+# vim - Opens/creates a file
+Modes :
+i (insert mode)
+esc - escape current mode
+:wq - save and quit
+q! - don't save
+:w - save only
+dd - delete line
+yy - copy line
+p - paste 
+ctrl+r - redo
+u - undo
+
 # cd - change directory
 Eg - cd linux-basics  ,  cd ..(to prev directory)  , cd .(to home directory)
 
@@ -47,11 +60,14 @@ Eg - head -n 2 file.txt (displays only 2 lines)
 
 # tail - displays last 10 lines of a files (default is 10)
 
-
-
 # mkdir - makes a directory(folder)
 Eg - mkdir cloud , mkdir cloud/aws-foundations
 Eg - mkdir -p cloud/middle folder/Hello (-p parents command)
+
+# find - finds files/directories
+Eg - find . (finds everthing under current direc)
+Eg - find /linux-basics -type f/d (finds under the given direc ,f for files, d for directories)
+Eg - find /linux-basics -type f/d -name "*.txt" (finds all txt files under the given direc)
 
 ## Basic Symbols 
 
@@ -64,3 +80,5 @@ Eg - mkdir -p cloud/middle folder/Hello (-p parents command)
 # . - current directory
 
 # .. - previous directory
+
+# * - wildcard (anything)
