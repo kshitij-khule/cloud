@@ -1,10 +1,12 @@
 ## Authority
 
-# sudo - super user do (runs commands with admin privilege)
+# sudo 
+super user do (runs commands with admin privilege)
 
 ## Basic Commands
 
-# vim - Opens/creates a file
+# vim
+Opens/creates a file
 Modes :
 i (insert mode)
 esc - escape current mode
@@ -17,68 +19,92 @@ p - paste
 ctrl+r - redo
 u - undo
 
-# cd - change directory
+# cd
+change directory
 Eg - cd linux-basics  ,  cd ..(to prev directory)  , cd .(to home directory)
 
-# ls - List Files
+# ls
+List Files
 Eg - ls , ls -a(all),ls - h(hidden), ls -r(recursive)
 
-# pwd - prints present working directory
+# pwd
+prints present working directory
 
-# cat - show file content if file present 
+# cat 
+show file content if file present 
 Eg - cat file.txt
 
-# cat> - create file with name after > 
+# cat>
+create file with name after > 
 Eg - cat > file.txt
 
-# touch - creates file 
+# touch
+creates file 
 Eg - touch names.txt 
 
-# rm - removes the file
+# rm
+removes the file
 Eg - rm file.txt 
 Eg - rm -r folder (deletes a folder)
 
-# echo "" - prints the text inside "" 
+# echo ""
+prints the text inside "" 
 
-# mv - moves files/renames or does both at the same time
+# mv
+moves files/renames or does both at the same time
 Eg - mv files.txt random 
 Eg - mv files.txt new.txt (renames files.txt as new.txt)
 
-# cp - copies files and directories
+# cp
+copies files and directories
 
-# tr - transaltes upper case <-> lower case
+# tr
+transaltes upper case <-> lower case
 
-# man |command|- opens manual for the command
+# man |command|
+opens manual for the command
 
-# df -h :disk free (prints info about disk usage (overall), -h : human readable)
+# df -h 
+disk free (prints info about disk usage (overall), -h : human readable)
 
-# du -h : Disk usage of that particular folder
+# du -h
+Disk usage of that particular folder
 
-# head - displays first 10 lines of a files (default is 10)
+# head
+displays first 10 lines of a files (default is 10)
 Eg - head file.txt
 Eg - head -n 2 file.txt (displays only 2 lines)
 
-# tail - displays last 10 lines of a files (default is 10)
+# tail
+displays last 10 lines of a files (default is 10)
 
-# mkdir - makes a directory(folder)
+# mkdir
+makes a directory(folder)
 Eg - mkdir cloud , mkdir cloud/aws-foundations
 Eg - mkdir -p cloud/middle folder/Hello (-p parents command)
 
-# find - finds files/directories
+# find
+finds files/directories
 Eg - find . (finds everthing under current direc)
 Eg - find /linux-basics -type f/d (finds under the given direc ,f for files, d for directories)
 Eg - find /linux-basics -type f/d -name "*.txt" (finds all txt files under the given direc)
 
 ## Basic Symbols 
 
-# > - Output to , move to ,redirect
+# > 
+Output to , move to ,redirect
 
-# | - pipe symbol(output of first command acts as input for the second command)
+# | 
+pipe symbol(output of first command acts as input for the second command)
 
-# \ - chain commands to execute them at once after pressing enter
+# \ 
+chain commands to execute them at once after pressing enter
 
-# . - current directory
+# .
+current directory
 
-# .. - previous directory
+# ..
+previous directory
 
-# * - wildcard (anything)
+# *
+wildcard (anything)
