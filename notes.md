@@ -13,4 +13,6 @@ used the curl command to understand the post method , then used frontend to exec
 Deployed the flask project on AWS EC2 and accessed it through the internet 
 ## Dec 31
 Planned my new year and how I move ahead with better discipline, better consistency, better habits and everything that leads to my growth
+## Dec 2
+Updated pending progress
 
